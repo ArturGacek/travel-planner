@@ -1,9 +1,9 @@
 <template>
   <UForm :state="state" @submit="saveSettings">
     <UFormGroup
-      label="Transaction View"
+      label="Destinations View"
       class="mb-4"
-      help="Choose how you would like to view transactions"
+      help="Choose how you would like to view destinations"
     >
       <ClientOnly>
         <USelectMenu
