@@ -1,6 +1,6 @@
 <template>
   <UCard v-if="!success">
-    <template #header> Sign-in to Finance Tracker </template>
+    <template #header> Sign-in to Travel Planner </template>
 
     <form @submit.prevent="handleLogin">
       <UFormGroup
